@@ -1,0 +1,26 @@
+{
+  "title": "FOCUS YOUR WORK ON THE MOST IMPORTANT PROBLEMS",
+  "description": "Prioritise the issues which have higher business impact.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

@@ -1,0 +1,1 @@
+Most big software systems ship and operate with countless (known and unknown) bugs. Deciding in an intelligent manner on which bugs to concentrate and which bugs to ignore will increase your debugging effectiveness. Hopefully, you’re not being paid to minimize the number of open issues, but to help deliver reliable, usable, maintainable, and efficient software.
