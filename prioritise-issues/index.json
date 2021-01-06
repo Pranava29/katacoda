@@ -1,26 +1,38 @@
 {
-  "title": "FOCUS YOUR WORK ON THE MOST IMPORTANT PROBLEMS",
-  "description": "Prioritise the issues which have higher business impact.",
+  "title": "Prioritise Issues",
+  "description": "Focus your work on the most important problems.",
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Types of issues",
         "text": "step1.md"
       }
     ],
+    "assets": {
+      "host01": [
+        {"file": "wait.sh", "target": "~/", "chmod": "+x"},
+        {"file": "issues.md", "target": "~/"}
+      ]
+    },
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "install-markdown-preview.sh",
+      "foreground": "wait-to-install.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "vscode-terminal-split"
-  },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "ubuntu"
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "Prioritise Issues", "href": "http://localhost:3333//root/issues.md"}
+    ],
+    "uilayout": "terminal-iframe"
   }
 }
